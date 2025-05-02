@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144698727739",
+    "project_id": "workway-f9033",
+    "storage_bucket": "workway-f9033.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144698727739:android:4c7e326ab4ea2c337fab1e",
+        "android_client_info": {
+          "package_name": "com.example.workway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfS_hKaSIJTddugZdTM1-jeHqEOJxd2Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
