@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:text="Job Title"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/lavender"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/detailImage"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/applyjob"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Company name"
+        android:layout_gravity="center"
+        android:id="@+id/detailLang"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Description"
+        android:layout_gravity="center"
+        android:id="@+id/detailDesc"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <!-- New Input Fields -->
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter the Job title and the Company name"/>
+
+    <EditText
+        android:id="@+id/educationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter your full name"/>
+
+    <EditText
+        android:id="@+id/experienceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter your highest education level"/>
+
+    <Button
+        android:id="@+id/chooseFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose CV PDF"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Apply"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
